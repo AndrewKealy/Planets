@@ -11,6 +11,18 @@
 		492DF04C2745264D0080D7BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492DF04B2745264D0080D7BE /* ContentView.swift */; };
 		492DF04E2745264E0080D7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492DF04D2745264E0080D7BE /* Assets.xcassets */; };
 		492DF0512745264E0080D7BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492DF0502745264E0080D7BE /* Preview Assets.xcassets */; };
+		492DF061274526D70080D7BE /* Moon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 492DF057274526D60080D7BE /* Moon.usdz */; };
+		492DF062274526D70080D7BE /* Uranus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 492DF058274526D60080D7BE /* Uranus.usdz */; };
+		492DF063274526D70080D7BE /* Venus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 492DF059274526D60080D7BE /* Venus.usdz */; };
+		492DF064274526D70080D7BE /* Mars.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 492DF05A274526D60080D7BE /* Mars.usdz */; };
+		492DF065274526D70080D7BE /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 492DF05B274526D60080D7BE /* Earth.usdz */; };
+		492DF066274526D70080D7BE /* Mercury.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 492DF05C274526D70080D7BE /* Mercury.usdz */; };
+		492DF067274526D70080D7BE /* Jupiter.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 492DF05D274526D70080D7BE /* Jupiter.usdz */; };
+		492DF068274526D70080D7BE /* Saturn.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 492DF05E274526D70080D7BE /* Saturn.usdz */; };
+		492DF069274526D70080D7BE /* Pluto.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 492DF05F274526D70080D7BE /* Pluto.usdz */; };
+		492DF06A274526D70080D7BE /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 492DF060274526D70080D7BE /* Neptune.usdz */; };
+		49C223CF2745502000BDAFF0 /* PlanetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C223CE2745502000BDAFF0 /* PlanetsModel.swift */; };
+		49C223D12745504D00BDAFF0 /* PlanetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C223D02745504D00BDAFF0 /* PlanetsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		492DF04B2745264D0080D7BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		492DF04D2745264E0080D7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492DF0502745264E0080D7BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		492DF057274526D60080D7BE /* Moon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Moon.usdz; sourceTree = "<group>"; };
+		492DF058274526D60080D7BE /* Uranus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Uranus.usdz; sourceTree = "<group>"; };
+		492DF059274526D60080D7BE /* Venus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Venus.usdz; sourceTree = "<group>"; };
+		492DF05A274526D60080D7BE /* Mars.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mars.usdz; sourceTree = "<group>"; };
+		492DF05B274526D60080D7BE /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
+		492DF05C274526D70080D7BE /* Mercury.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Mercury.usdz; sourceTree = "<group>"; };
+		492DF05D274526D70080D7BE /* Jupiter.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Jupiter.usdz; sourceTree = "<group>"; };
+		492DF05E274526D70080D7BE /* Saturn.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Saturn.usdz; sourceTree = "<group>"; };
+		492DF05F274526D70080D7BE /* Pluto.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pluto.usdz; sourceTree = "<group>"; };
+		492DF060274526D70080D7BE /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Neptune.usdz; sourceTree = "<group>"; };
+		49C223CE2745502000BDAFF0 /* PlanetsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsModel.swift; sourceTree = "<group>"; };
+		49C223D02745504D00BDAFF0 /* PlanetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +75,12 @@
 		492DF0482745264D0080D7BE /* Planets */ = {
 			isa = PBXGroup;
 			children = (
-				492DF0492745264D0080D7BE /* PlanetsApp.swift */,
+				49C223CE2745502000BDAFF0 /* PlanetsModel.swift */,
+				49C223D02745504D00BDAFF0 /* PlanetsViewModel.swift */,
 				492DF04B2745264D0080D7BE /* ContentView.swift */,
+				492DF0492745264D0080D7BE /* PlanetsApp.swift */,
 				492DF04D2745264E0080D7BE /* Assets.xcassets */,
+				492DF06B2745270D0080D7BE /* Objects */,
 				492DF04F2745264E0080D7BE /* Preview Content */,
 			);
 			path = Planets;
@@ -65,6 +92,23 @@
 				492DF0502745264E0080D7BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		492DF06B2745270D0080D7BE /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				492DF05B274526D60080D7BE /* Earth.usdz */,
+				492DF05D274526D70080D7BE /* Jupiter.usdz */,
+				492DF05A274526D60080D7BE /* Mars.usdz */,
+				492DF05C274526D70080D7BE /* Mercury.usdz */,
+				492DF057274526D60080D7BE /* Moon.usdz */,
+				492DF060274526D70080D7BE /* Neptune.usdz */,
+				492DF05F274526D70080D7BE /* Pluto.usdz */,
+				492DF05E274526D70080D7BE /* Saturn.usdz */,
+				492DF058274526D60080D7BE /* Uranus.usdz */,
+				492DF059274526D60080D7BE /* Venus.usdz */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +169,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492DF061274526D70080D7BE /* Moon.usdz in Resources */,
+				492DF062274526D70080D7BE /* Uranus.usdz in Resources */,
+				492DF063274526D70080D7BE /* Venus.usdz in Resources */,
+				492DF064274526D70080D7BE /* Mars.usdz in Resources */,
+				492DF065274526D70080D7BE /* Earth.usdz in Resources */,
+				492DF066274526D70080D7BE /* Mercury.usdz in Resources */,
+				492DF067274526D70080D7BE /* Jupiter.usdz in Resources */,
+				492DF068274526D70080D7BE /* Saturn.usdz in Resources */,
+				492DF069274526D70080D7BE /* Pluto.usdz in Resources */,
+				492DF06A274526D70080D7BE /* Neptune.usdz in Resources */,
 				492DF0512745264E0080D7BE /* Preview Assets.xcassets in Resources */,
 				492DF04E2745264E0080D7BE /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +191,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C223D12745504D00BDAFF0 /* PlanetsViewModel.swift in Sources */,
 				492DF04C2745264D0080D7BE /* ContentView.swift in Sources */,
+				49C223CF2745502000BDAFF0 /* PlanetsModel.swift in Sources */,
 				492DF04A2745264D0080D7BE /* PlanetsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
